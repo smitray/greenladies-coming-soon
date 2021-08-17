@@ -82,7 +82,7 @@ const SEO = ({ description, lang, meta, title }: SEOProperties) => {
         },
       ]}
     >
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
         rel="preconnect"
         href="https://fonts.gstatic.com"
@@ -91,7 +91,7 @@ const SEO = ({ description, lang, meta, title }: SEOProperties) => {
       <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap"
         rel="stylesheet"
-      />
+      /> */}
     </Helmet>
   );
 };

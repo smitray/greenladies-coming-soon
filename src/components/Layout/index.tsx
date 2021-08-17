@@ -5,7 +5,7 @@ type LayoutProperties = {
 };
 
 const Layout = ({ children }: LayoutProperties) => (
-  <div className="bg-gray-800 font-brand">{children}</div>
+  <div className="bg-black ont-brand">{children}</div>
 );
 
 export default Layout;
