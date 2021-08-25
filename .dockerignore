@@ -1,2 +1,15 @@
-.cache/
-node_modules/
+.git
+.gitignore
+.gitkeep
+LICENSE
+VERSION
+README.md
+Changelog.md
+docker-compose.*.yml
+node_modules
+.eslintrc.js
+.eslintignore
+.huskyrc.js
+.lintstagedrc.js
+.prettierrc.js
+.prettierignore

@@ -1,0 +1,11 @@
+version: '3'
+services: 
+  web:
+    container_name: web-dev
+    command: ["yarn", "dev"]
+    volumes:
+      - ./src:/app/src
+    environment: 
+      - NODE_ENV=development
+    ports:
+      - "3000:8000"
